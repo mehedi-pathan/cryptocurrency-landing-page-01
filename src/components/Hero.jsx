@@ -18,7 +18,7 @@ const Hero = () => {
               data-aos-delay="400"
             >
               <div className="flex items-center justify-between text-sm lg:text-base">
-                <div className="bg-white text-darkblue rounded-full font-medium py-1 px-4">
+                <div className="bg-white text-[#7266c8] rounded-full font-medium py-1 px-4">
                   75% SAVE
                 </div>
                 <div className="capitalize">For the Black Friday weekend</div>
@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
             {/* hero section title */}
             <h1
-              className="text-[32px] lg:text-[64px] font-bold mb-6 leading-tight"
+              className="text-[32px] lg:text-[64px] font-bold mb-6 leading-tight capitalize"
               data-aos="fade-down"
               data-aos-delay="500"
             >
@@ -50,8 +50,9 @@ const Hero = () => {
             </button>
           </div>
           {/* hero image */}
-          <div className="flex-1">
+          <div className="flex-1 flex items-center justify-center">
             <img
+              className="w-[60%] lg:w-[100%] "
               src={HeroImg}
               alt="Hero section img"
               data-aos="fade-up"

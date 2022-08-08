@@ -8,6 +8,9 @@ import 'aos/dist/aos.css';
 import Hero from './components/Hero';
 import Header from './components/Header';
 import NavMobile from './components/NavMobile';
+import Stats from './components/Stats';
+import Why from './components/Why';
+import Calculate from './components/Calculate';
 
 function App() {
   // mobile nav state
@@ -32,6 +35,9 @@ function App() {
 
         <NavMobile setNavMobile={setNavMobile} />
       </div>
+      <Stats />
+      <Why />
+      <Calculate />
 
     </ div>
   );
