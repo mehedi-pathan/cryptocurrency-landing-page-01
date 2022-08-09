@@ -2,7 +2,8 @@
 import HeroImg from "../assets/img/hero-img.png";
 
 //import icons
-import { IoIosArrowDroprightCircle } from "react-icons/io";
+// import { IoIosArrowDroprightCircle } from "react-icons/io";
+import ArrorRight from "../assets/img/Arrow_Right.svg";
 
 const Hero = () => {
   return (
@@ -43,12 +44,19 @@ const Hero = () => {
               $30 billion in transactions.
             </p>
             <button
-              className="btn gap-x-5 pl-6 text-sm lg:h-16 lg:text-base"
+              className="flex items-center justify-evenly btn gap-x-5 pl-6 text-[18px] font-medium lg:h-16 lg:text-base lg:w-[202px]"
               data-aos="fade-down"
               data-aos-delay="700"
             >
-              Try it free
-              <IoIosArrowDroprightCircle className="text-2xl lg:text-3xl" />
+              <span>
+                Try for <span className="uppercase">free</span>
+              </span>
+              {/* <IoIosArrowDroprightCircle className="text-2xl lg:text-[37px]" /> */}
+              <img
+                className="lg:w-[32px] lg:h-[32px]"
+                src={ArrorRight}
+                alt=""
+              />
             </button>
           </div>
           {/* hero image */}

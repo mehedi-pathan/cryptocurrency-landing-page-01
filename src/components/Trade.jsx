@@ -3,7 +3,9 @@ import { useState } from "react";
 import { currency } from "../data";
 
 // import icons
-import { IoIosArrowRoundForward } from "react-icons/io";
+// import { AiOutlineRightCircle } from "react-icons/ai";
+// import image
+import ArrowImg from "../assets/img/Arrow_Right.svg";
 
 const Trade = () => {
   // item name state maintain
@@ -11,9 +13,12 @@ const Trade = () => {
   return (
     <section className="section lg:pt-[320px]  bg-gradient-to-b from-[#f8f9fb] to-[#fafbff] text-darkblue lg:-mt-[320px]">
       <div className="container mx-auto">
-        <h2 className="section-title text-center mb-16">
-          Trade securely and market the high growth cryptocurrencies.
-        </h2>
+        <div className="text-center max-w-[758px] mx-auto mb-24 lg:mb-[64px]">
+          <h2 className="section-title">
+            Trade securely and market the high growth cryptocurrencies.
+          </h2>
+        </div>
+
         {/* items */}
         <div className="flex flex-col gap-[45px] lg:flex-row">
           {currency.map((item, index) => {
@@ -21,7 +26,8 @@ const Trade = () => {
             return (
               //items
               <div
-                onClick={() => setItemName(name)}
+                onMouseEnter={() => setItemName(name)}
+                onMouseLeave={() => setItemName(!name)}
                 className={`${
                   name === itemName ? "bg-violet text-white" : "bg-white"
                 } w-full rounded-2xl py-12 px-6 shadow-primary cursor-pointer transition duration-300`}
@@ -53,11 +59,20 @@ const Trade = () => {
                         Start mining
                       </div>
                     )}
-                    <IoIosArrowRoundForward
+                    <img
+                      className={`${
+                        name === itemName
+                          ? "w-[32px] h-[32px]"
+                          : "w-[64px] h-[64px]"
+                      } transition`}
+                      src={ArrowImg}
+                      alt=""
+                    />
+                    {/* <AiOutlineRightCircle
                       className={`${
                         name === itemName ? "text-2xl" : "text-3xl"
                       }`}
-                    />
+                    /> */}
                   </button>
                 </div>
               </div>

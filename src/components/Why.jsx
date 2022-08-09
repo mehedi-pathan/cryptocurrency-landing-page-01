@@ -5,7 +5,7 @@ const Why = () => {
   return (
     <section className="section">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center gap-x-[70px] lg:flex-row">
+        <div className="flex flex-col lg:items-center items-start gap-x-[70px] lg:flex-row">
           {/* image */}
           <div className="order-2 lg:order-1 flex items-center justify-center">
             <img
@@ -17,7 +17,7 @@ const Why = () => {
           {/* text */}
           <div className="order-1 lg:order-2">
             <h2 className="section-title">Why you should choose CRAPPO</h2>
-            <p className="section-subtitle max-w-[408px]">
+            <p className="section-subtitle md:px-0 max-w-[408px]">
               Experience the next generation cryptocurrency platform. No
               financial borders, extra fees, and fake reviews.
             </p>

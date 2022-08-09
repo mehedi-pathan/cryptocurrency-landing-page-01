@@ -19,7 +19,7 @@
     @apply text-2xl lg:text-[40px] font-bold leading-normal mb-6 capitalize;
   }
   .section-subtitle {
-    @apply mt-6 mb-8 text-gray normal-case;
+    @apply lg:px-3 px-0 mt-6 mb-8 text-gray normal-case;
   }
   .input,
   .select {

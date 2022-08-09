@@ -4,15 +4,19 @@ import FeaturesImg2 from "../assets/img/feature-2-img.png";
 const FeaturesSection2 = () => {
   return (
     <section className="py-[30px] lg:py-[120px]">
-      <div className="container mx-auto">
-        <div className="flex flex-col justify-end items-center lg:flex-row">
+      <div>
+        <div className="flex flex-col lg:justify-end lg:items-center lg:flex-row">
           {/* image */}
           <div
-            className="flex-1 lg:absolute lg:left-0 order-2 lg:order-1"
+            className="flex-1 flex justify-center lg:absolute lg:left-0 order-2 lg:order-1"
             data-aos="fade-right"
             data-aos-offset="400"
           >
-            <img src={FeaturesImg2} alt="" />
+            <img
+              className="w-[80%] lg:w-[100%] my-8 lg:my-0"
+              src={FeaturesImg2}
+              alt=""
+            />
           </div>
           {/* text */}
           <div

@@ -15,7 +15,7 @@ const Calculate = () => {
             Check how much you can earn
           </h2>
           <p
-            className="section-subtitle text-lg mb-16 max-w-[622px] mx-auto"
+            className="section-subtitle text-lg mb-16 font-thin max-w-[622px] mx-auto"
             data-aos="fade-up"
             data-aos-offset="450"
           >

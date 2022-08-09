@@ -1,5 +1,6 @@
 // import image
-import FeaturesImg3 from "../assets/img/feature-3-img.png";
+// import FeaturesImg3 from "../assets/img/feature-3-img.png";
+import FeaturesImg3 from "../assets/img/Table.png";
 
 const FeaturesSection3 = () => {
   return (
@@ -21,11 +22,15 @@ const FeaturesSection3 = () => {
           <button className="btn px-8">Learn more</button>
         </div>
         <div
-          className="flex flex-1 justify-end"
+          className="flex flex-1 lg:justify-end justify-start"
           data-aos="fade-left"
           data-aos-offset="400"
         >
-          <img src={FeaturesImg3} alt="feature section img" />
+          <img
+            className="w-[90%] lg:w-[100%] my-8 lg:my-0"
+            src={FeaturesImg3}
+            alt="feature section img"
+          />
         </div>
       </div>
     </section>
