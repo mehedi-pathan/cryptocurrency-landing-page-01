@@ -14,7 +14,7 @@ const Stats = () => {
             </div>
             {/* item text */}
             <div>
-              <div className="text-2xl font-bold lg:text-[40px] lg:mb-2">
+              <div className="text-2xl font-bold lg:text-[40px] lg:mb-5">
                 $30B
               </div>
               <div className="text-gray">Digita Currency Echange</div>
@@ -28,7 +28,7 @@ const Stats = () => {
             </div>
             {/* item text */}
             <div>
-              <div className="text-2xl font-bold lg:text-[40px] lg:mb-2">
+              <div className="text-2xl font-bold lg:text-[40px] lg:mb-5">
                 10M+
               </div>
               <div className="text-gray">Trusted Wallets Investor</div>
@@ -42,7 +42,7 @@ const Stats = () => {
             </div>
             {/* item text */}
             <div>
-              <div className="text-2xl font-bold lg:text-[40px] lg:mb-2">
+              <div className="text-2xl font-bold lg:text-[40px] lg:mb-5">
                 150
               </div>
               <div className="text-gray">Countries Supported</div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const CalcForm = () => {
   return (
-    <div className="w-full bg-white max-h-[942px] mx-auto rounded-2xl text-darkblue p-12 shadow-primary">
+    <div className="w-full bg-white max-w-[942px] mx-auto rounded-2xl text-darkblue p-12 shadow-primary">
       {/* form */}
       <form className="flex flex-col lg:flex-row lg:justify-between lg:items-center space-y-12 lg:space-y-0">
         <input
@@ -24,7 +24,7 @@ const CalcForm = () => {
       </form>
       {/* text */}
       <div className="mt-24">
-        <div className="uppercase text-sm text-blue-500">
+        <div className="uppercase text-sm text-blue-500 mb-[16px]">
           Estimated 24 hour revinew
         </div>
         <div className="text-[32px] font-bold mb-3">

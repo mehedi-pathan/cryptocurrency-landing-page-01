@@ -19,7 +19,8 @@ const Calculate = () => {
             data-aos="fade-up"
             data-aos-offset="450"
           >
-            Let's check your hash rate to see how much you will earn today.
+            Let’s check your hash rate to see how much you will earn today,
+            Exercitation veniam consequat sunt nostrud amet.
           </p>
         </div>
         {/* calculate form */}

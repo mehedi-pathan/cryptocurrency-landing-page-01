@@ -18,10 +18,12 @@ const Hero = () => {
               data-aos-delay="400"
             >
               <div className="flex items-center justify-between text-sm lg:text-base">
-                <div className="bg-white text-[#7266c8] rounded-full font-medium py-1 px-4">
+                <div className="bg-white text-black rounded-full font-medium py-1 px-4">
                   75% SAVE
                 </div>
-                <div className="capitalize">For the Black Friday weekend</div>
+                <div className="capitalize font-light">
+                  For the Black Friday weekend
+                </div>
               </div>
             </div>
             {/* hero section title */}
@@ -33,7 +35,7 @@ const Hero = () => {
               Fastest & secure platform to invest in crypto
             </h1>
             <p
-              className="max-w-[440px] mb-8 leading-relaxed"
+              className="max-w-[440px] mb-8 leading-relaxed font-thin"
               data-aos="fade-down"
               data-aos-delay="600"
             >
