@@ -1,10 +1,10 @@
-import { React, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 // import aos
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-//import componets
+//import components
 import Hero from './components/Hero';
 import Header from './components/Header';
 import NavMobile from './components/NavMobile';
